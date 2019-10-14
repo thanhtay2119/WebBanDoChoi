@@ -8,3 +8,10 @@
 
 > ĐÒ chơi trí tuệ
 ![img](/imgMD/localhost_56688_Contact.png)
+
+>SQL
+![img](/imgMD/sql1.JPG)
+![img](/imgMD/sql2.JPG)
+![img](/imgMD/sql3.JPG)
+![img](/imgMD/sql4.JPG)
+![img](/imgMD/sql5.JPG)
