@@ -11,93 +11,77 @@ namespace toyshop.Models
         protected override void Seed(toyContext context)
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
-            GetBooks().ForEach(p => context.Books.Add(p));
+            GetToys().ForEach(p => context.Books.Add(p));
         }
         private static List<WebApplication1.models.Category> GetCategories()
         {
             var categories = new List<Category> {
- new Category
+ new Loaidochoi
  {
- CategoryID = 1,
-CategoryName = "Fiction"
+    Maloaidochoi = 1,
+MaLoaidochoi = "Do choi van dong"
  },
- new Category
+ new Loaidochoi
  {
- CategoryID = 2,
-CategoryName = "Biographies and Memoirs"
+  Maloaidochoi = 2,
+CategoryName = "Do choi tri Tue"
  },
- new Category{
- CategoryID = 3,
-CategoryName = "Biological Sciences"
+ new  loaidochoi{
+  Maloaidochoi = 3,
+ loaidochoiName = "Phuong tien giao thong"
  },
- new Category
+ new  loaidochoi
  {
- CategoryID = 4,
-CategoryName = "Self-Help"
+  Maloaidochoi = 4,
+ loaidochoiName = "Bup be"
  }
  };
             return categories;
         }
-        private static List<WebApplication1.toy> GetBooks()
+        private static List<WebApplication1.toy> GetToy()
         {
-            var books = new List<Book> {
- //book 1
- new Book
+            var toys = new List<Toy> {
+
+ new Toy
  {
- BookID = 1,
-BookName = "Fire & Blood",
-Description = "300 Years Before A Game of Thrones (A Targaryen
-History) (A Song of Ice and Fire).",
-        ImagePath = "Pic1.png",
+ ToyID = 1,
+ToyName = "Đồ Chơi Xe Điều Khiển Monster Viper",
+        ImagePath = "tritue1.jpg",
 UnitPrice = 16.04f,
- CategoryID = 1
+ LoaidochoiID = 1
         },
- //book 2
- new Book
+
+ new Toy
  {
- BookID = 2,
-BookName = "Benjamin Franklin: An American Life",
-Description = "In this authoritative and engrossing full-scale
-biography, Walter Isaacson, " +
- "bestselling author of Einstein and Steve Jobs, shows how the most
-fascinating of " +
- "America's founders helped define our national character.",
-ImagePath = "Pic2.png",
+ ToyID = 2,
+ToyName = "Quả trứng thần kỳ",
+ImagePath = "tritue2.jpg",
 UnitPrice = 19.60f,
 CategoryID = 2
     },
- //book 3
- new Book
+
+ new Toy
  {
- BookID = 3,
- BookName = "Obama: An Intimate Portrait",
- Description = "During Barack Obama's two terms, Pete Souza was with
-the President " +
- "during more crucial moments than anyone else--and he photographed
-them all",
- ImagePath="Pic3.png",
+ ToyID = 1,
+ ToyName = "Obama: An Intimate Portrait",
+ ImagePath="vandong1.jpg ",
 UnitPrice = 26.73f,
 CategoryID = 2
  },
- //book 4
- new Book
+ 
+ new Toy
  {
- BookID = 4,
-BookName = "Sapiens: A Brief History of Humankind",
-Description = "One hundred thousand years ago, at least six different
-species of " +
- "humans inhabited Earth. Yet today there is only one—homo sapiens. "
-+
- "What happened to the others? And what may happen to us?",
+ ToyID = 4,
+ToyName = "Sapiens: A Brief History of Humankind",
 ImagePath="Pic4.png",
 UnitPrice = 23.79f,
 CategoryID = 3
  },
- //book 5
- new Book
+
+ new Toy
  {
- BookID = 5,
-BookName = "The 7 Habits of Highly Effective People",
+ ToyID = 5,
+ToyName = "The 7 Habits of Highly Effective People",
 Description = "Stephen Covey’s cherished classic commemorates the
 timeless wisdom and " +
  "power of the 7 Habits book, and does it in a highly readable and

@@ -8,6 +8,6 @@ namespace toishop.Models
         public toyContext() : base("toyshop")
         { }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<toy> Books { get; set; }
+        public DbSet<toy> Toys { get; set; }
     }
 }
