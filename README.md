@@ -10,8 +10,8 @@
 ![img](/imgMD/localhost_56688_Contact.png)
 
 >SQL
-![img](/imgMD/SQL0.JPG)
-![img](/imgMD/SQL00.JPG)
-![img](/imgMD/SQL000.JPG)
-![img](/imgMD/SQL0000.JPG)
-![img](/imgMD/SQL00000.JPG)
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL0.JPG">
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL00.JPG">
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL000.JPG">
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL0000.JPG">
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL00000.JPG">
