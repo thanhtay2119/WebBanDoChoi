@@ -13,11 +13,11 @@
 >SQL gồm có :
 >bảng design Loại Đồ Chơi:
 <img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL0.JPG">
->Bảng liên kết 2 bảng Đồ chơi vs Loại đồ chơi:
-<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL00.JPG">
 >Bảng design Đồ Chơi:
 <img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL000.JPG">
 >Bảng dữ liệu Đồ Chơi
 <img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL0000.JPG">
 >Bảng dữ liệu Loại đồ Chơi:
 <img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL00000.JPG">
+>Bảng liên kết 2 bảng Đồ chơi vs Loại đồ chơi:
+<img src = "https://raw.githubusercontent.com/thanhtay2119/WebBanDoChoi/master/SQL00.JPG">
